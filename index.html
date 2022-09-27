@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation in Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="form-heading">
+        Form Validation in Javascript
+    </h1>
+
+    <div class="form">
+        <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="POST">
+            <div id="userName" class="form-design">
+              UserName: <input type="text" name="fname" id="" class="inputform"><b><span class="formerror"></span></b>
+            </div>
+            <div id="email" class="form-design">
+                Email: <input type="email" name="femail" id="" class="inputform"><b><span class="formerror"></span></b>
+            </div>
+            <div id="phoneNumber" class="form-design">
+                Phone Number: <input type="number" name="fnumber" id="" class="inputform"><b><span class="formerror"></span></b>
+            </div>
+            <div id="password" class="form-design">
+               Password: <input type="password" name="fpassword" id="" class="inputform"><b><span class="formerror"></span></b>
+            </div>
+            <div id="confirmpassword" class="form-design">
+               Confirm Password: <input type="password" name="cpassword" id="" class="inputform"><b><span class="formerror"></span></b>
+            </div>
+            <div id="button" class="form-design">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.form-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.form-design{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.formerror{
+    color: red;
+}
+#button .btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#button{
+    text-align: center;
+}
+.inputform{
+    padding: 5px;
+    width: 40%;
+    font-size: 20px;
+}
